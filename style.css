@@ -26,131 +26,38 @@ header {
     height: 100%;
 }
 
-.title {
-    display: flex;
-    align-items: center;
-    color: #52528c;
-    height: 6vh;
-}
-
 main {
+    width: 100%;
+    height: 89vh;
     display: flex;
+    align-items: center;
     justify-content: center;
+}
+
+#form {
+    width: 600px;
+    height: 400px;
+    display: flex;
     align-items: center;
     flex-direction: column;
-    width: 100%;
-    height: 87.5vh;
-}
-
-.main {
-    display: flex;
     justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 75%;
+    /* background: red; */
 }
 
-form {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    border: 2px solid #52528c;
-    width: 100%;
-    height: 100%;
+form > div {
+    margin: 0.5rem;
 }
 
-.flavorValue {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 5vh;
+input, select {
+    width: 250px;
+    height: 60px;
+    padding: 10px;
 }
 
-.flavorValue select {
-    width: 33%;
-    height: 5vh;
+button {
+    width: 225px;
+    height: 30px;
 }
-
-.flavorValue input {
-    width: 33%;
-    height: 5vh;
-}
-
-.submit {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-}
-
-.submit button {
-    width: 50%;
-    height: 5vh;
-}
-
-select, input, button {
-    padding: 0.5rem;
-    margin: 1rem;
-}
-
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-}
-
-.tabela, form {
-    margin: 2rem;
-}
-
-.tabela {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    border: 2px solid #52528c;
-    width: 100%;
-    height: 28.5%;
-}
-
-table {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #d5cfe1;
-    width: 100%;
-    height: 100%;
-}
-
-.produto {
-    width: 100%;
-}
-
-#produto {
-    width: 100%;
-}
-
-.quantidade {
-    width: 100%;
-}
-
-.valor {
-    width: 100%;
-}
-
-#produto, #quantidade, #valor, #total {
-    text-align: center;
-    width: 100%;
-    height: 100%;
-}
-
-tbody,td {
-    width: 15%;
-    border: 2px solid black;
-}
-
 
 footer {
     display: flex;
