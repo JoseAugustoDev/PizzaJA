@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>PizzaJA</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="title">
+                <h1>Sistema de Gerenciamento da JA Pizzaria</h1>    
+            </div>
+        </header>
+        <main>
+            <div class="main">
+                <form id="form">
+                    <div class="flavorValue">
+                        <select name="products" class="productSelect" required>
+                            <option selected disabled value="" teste="Selecione">Selecione</option>
+                            <option value="Pizza de Calabresa">Pizza de Calabresa</option>
+                            <option value="Pizza Portuguesa">Pizza Portuguesa</option>
+                            <option value="Pizza Quatro Queijos">Pizza Quatro Queijos</option>
+                            <option value="Pizza Margherita">Pizza Margherita</option>
+                            <option value="Pizza de Pepperoni">Pizza de Pepperoni</option>
+                        </select>
+
+                        <input placeholder="Valor" class="priceValue" required>   
+                    </div>
+                    <div class="submit">
+                        <button id="add" type="submit">
+                            Adicionar Venda
+                        </button>
+                    </div>
+                    <div class="info"></div>
+                </form>
+                <div class="tabela">
+                    <table>
+                        <div class="tabela2">
+                            <div class="produto">
+                                <tbody id="produto">
+                                    <tr><th>Produto</th></tr>
+                                    <tr><td>Pizza de Calabresa</td></tr>
+                                    <tr><td>Pizza Portuguesa</td></tr>
+                                    <tr><td>Pizza de Quatro Queijos</td></tr>
+                                    <tr><td>Pizza de Margherita</td></tr>
+                                    <tr><td>Pizza de Pepperoni</td></tr>
+                                </tbody>
+                            </div>
+                            <div class="quantidade">
+                                <tbody id="quantidade">
+                                    <tr><th>Quantidade</th></tr>
+                                    <tr><td>-</td></tr>
+                                    <tr><td>-</td></tr>
+                                    <tr><td>-</td></tr>
+                                    <tr><td>-</td></tr>
+                                    <tr><td>-</td></tr>
+                                </tbody>
+                            </div>
+                            <div class="valor">
+                                <tbody id="valor">
+                                    <tr><th>Valor</th></tr>
+                                    <tr><td>-</td></tr>
+                                    <tr><td>-</td></tr>
+                                    <tr><td>-</td></tr>
+                                    <tr><td>-</td></tr>
+                                    <tr><td>-</td></tr>
+                                </tbody>
+                            </div>
+                            <div class="total">
+                                <tbody id="total">
+                                    <tr><th>Total</th></tr>
+                                    <tr><td>-</td></tr>
+                                    <tr><td>-</td></tr>
+                                    <tr><td>-</td></tr>
+                                    <tr><td>-</td></tr>
+                                    <tr><td>-</td></tr>
+                                </tbody>
+                            </div>
+                        </div>
+                    </table>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="end">
+                <h3>Feito por Jose Augusto</h3>
+            </div>
+        </footer>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
